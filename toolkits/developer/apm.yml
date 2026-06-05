@@ -1,0 +1,11 @@
+name: developer-toolkit
+version: 1.0.0
+description: Developer Toolkit
+author: Data Platform Engineering
+targets:
+  - copilot
+dependencies:
+  apm: []
+  mcp: []
+includes: auto
+scripts: {}

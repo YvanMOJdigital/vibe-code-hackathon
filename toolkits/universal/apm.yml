@@ -1,0 +1,16 @@
+name: universal-toolkit
+version: 1.0.0
+description: Universal Toolkit
+author: Data Platform Engineering
+targets:
+  - copilot
+  - cursor
+dependencies:
+  apm: []
+  mcp:
+    - name: github
+      registry: false
+      transport: http
+      url: https://api.githubcopilot.com/mcp/
+includes: auto
+scripts: {}
